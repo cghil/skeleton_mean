@@ -1,0 +1,484 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json MEAN@0.0.3 No description
+5 warn package.json MEAN@0.0.3 No repository field.
+6 warn package.json MEAN@0.0.3 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/corey_g/personal_projects/express/skeleton',
+8 verbose install   [ 'express',
+8 verbose install     'morgan',
+8 verbose install     'compression',
+8 verbose install     'body-parser',
+8 verbose install     'method-override' ] ]
+9 info preinstall MEAN@0.0.3
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping express@~4.8.8 /Users/corey_g/personal_projects/express/skeleton
+12 verbose cache add [ 'morgan@~1.3.0', null ]
+13 verbose cache add name=undefined spec="morgan@~1.3.0" args=["morgan@~1.3.0",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'morgan@~1.3.0',
+14 verbose parsed url   path: 'morgan@~1.3.0',
+14 verbose parsed url   href: 'morgan@~1.3.0' }
+15 verbose cache add [ 'compression@~1.0.11', null ]
+16 verbose cache add name=undefined spec="compression@~1.0.11" args=["compression@~1.0.11",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'compression@~1.0.11',
+17 verbose parsed url   path: 'compression@~1.0.11',
+17 verbose parsed url   href: 'compression@~1.0.11' }
+18 verbose cache add name="morgan" spec="~1.3.0" args=["morgan","~1.3.0"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '~1.3.0',
+19 verbose parsed url   path: '~1.3.0',
+19 verbose parsed url   href: '~1.3.0' }
+20 verbose addNamed [ 'morgan', '~1.3.0' ]
+21 verbose addNamed [ null, '>=1.3.0-0 <1.4.0-0' ]
+22 verbose cache add name="compression" spec="~1.0.11" args=["compression","~1.0.11"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '~1.0.11',
+23 verbose parsed url   path: '~1.0.11',
+23 verbose parsed url   href: '~1.0.11' }
+24 verbose addNamed [ 'compression', '~1.0.11' ]
+25 verbose addNamed [ null, '>=1.0.11-0 <1.1.0-0' ]
+26 verbose cache add [ 'body-parser@~1.8.0', null ]
+27 verbose cache add name=undefined spec="body-parser@~1.8.0" args=["body-parser@~1.8.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'body-parser@~1.8.0',
+28 verbose parsed url   path: 'body-parser@~1.8.0',
+28 verbose parsed url   href: 'body-parser@~1.8.0' }
+29 silly lockFile a4a9bdf4-morgan-1-3-0 morgan@~1.3.0
+30 verbose lock morgan@~1.3.0 /Users/corey_g/.npm/a4a9bdf4-morgan-1-3-0.lock
+31 silly lockFile ff995a08-compression-1-0-11 compression@~1.0.11
+32 verbose lock compression@~1.0.11 /Users/corey_g/.npm/ff995a08-compression-1-0-11.lock
+33 verbose cache add name="body-parser" spec="~1.8.0" args=["body-parser","~1.8.0"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '~1.8.0',
+34 verbose parsed url   path: '~1.8.0',
+34 verbose parsed url   href: '~1.8.0' }
+35 verbose addNamed [ 'body-parser', '~1.8.0' ]
+36 verbose addNamed [ null, '>=1.8.0-0 <1.9.0-0' ]
+37 silly lockFile b68cd600-body-parser-1-8-0 body-parser@~1.8.0
+38 verbose lock body-parser@~1.8.0 /Users/corey_g/.npm/b68cd600-body-parser-1-8-0.lock
+39 silly addNameRange { name: 'morgan', range: '>=1.3.0-0 <1.4.0-0', hasData: false }
+40 silly addNameRange { name: 'body-parser',
+40 silly addNameRange   range: '>=1.8.0-0 <1.9.0-0',
+40 silly addNameRange   hasData: false }
+41 silly addNameRange { name: 'compression',
+41 silly addNameRange   range: '>=1.0.11-0 <1.1.0-0',
+41 silly addNameRange   hasData: false }
+42 verbose cache add [ 'method-override@~2.2.0', null ]
+43 verbose cache add name=undefined spec="method-override@~2.2.0" args=["method-override@~2.2.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'method-override@~2.2.0',
+44 verbose parsed url   path: 'method-override@~2.2.0',
+44 verbose parsed url   href: 'method-override@~2.2.0' }
+45 verbose cache add name="method-override" spec="~2.2.0" args=["method-override","~2.2.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~2.2.0',
+46 verbose parsed url   path: '~2.2.0',
+46 verbose parsed url   href: '~2.2.0' }
+47 verbose addNamed [ 'method-override', '~2.2.0' ]
+48 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+49 silly lockFile 574f3b77-method-override-2-2-0 method-override@~2.2.0
+50 verbose lock method-override@~2.2.0 /Users/corey_g/.npm/574f3b77-method-override-2-2-0.lock
+51 silly addNameRange { name: 'method-override',
+51 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+51 silly addNameRange   hasData: false }
+52 verbose request where is /morgan
+53 verbose request registry https://npm.interactive-apps.apple.com/
+54 verbose request id cd65809a8669bd45
+55 verbose url raw /morgan
+56 verbose url resolving [ 'https://npm.interactive-apps.apple.com/', './morgan' ]
+57 verbose url resolved https://npm.interactive-apps.apple.com/morgan
+58 verbose request where is https://npm.interactive-apps.apple.com/morgan
+59 info trying registry request attempt 1 at 18:59:12
+60 verbose etag "1RQBDKKR3V5ZRW2SZUQIVY2J2"
+61 http GET https://npm.interactive-apps.apple.com/morgan
+62 verbose request where is /body-parser
+63 verbose request registry https://npm.interactive-apps.apple.com/
+64 verbose url raw /body-parser
+65 verbose url resolving [ 'https://npm.interactive-apps.apple.com/', './body-parser' ]
+66 verbose url resolved https://npm.interactive-apps.apple.com/body-parser
+67 verbose request where is https://npm.interactive-apps.apple.com/body-parser
+68 info trying registry request attempt 1 at 18:59:12
+69 verbose etag "9XGHHU5SSQIX3FVXT8YJFUP0G"
+70 http GET https://npm.interactive-apps.apple.com/body-parser
+71 verbose request where is /compression
+72 verbose request registry https://npm.interactive-apps.apple.com/
+73 verbose url raw /compression
+74 verbose url resolving [ 'https://npm.interactive-apps.apple.com/', './compression' ]
+75 verbose url resolved https://npm.interactive-apps.apple.com/compression
+76 verbose request where is https://npm.interactive-apps.apple.com/compression
+77 info trying registry request attempt 1 at 18:59:12
+78 verbose etag "EM0M8KBB78GAG70YN5FBEIFZT"
+79 http GET https://npm.interactive-apps.apple.com/compression
+80 verbose request where is /method-override
+81 verbose request registry https://npm.interactive-apps.apple.com/
+82 verbose url raw /method-override
+83 verbose url resolving [ 'https://npm.interactive-apps.apple.com/',
+83 verbose url resolving   './method-override' ]
+84 verbose url resolved https://npm.interactive-apps.apple.com/method-override
+85 verbose request where is https://npm.interactive-apps.apple.com/method-override
+86 info trying registry request attempt 1 at 18:59:12
+87 verbose etag "56CKX4VQB466JGUBRGOWAC49W"
+88 http GET https://npm.interactive-apps.apple.com/method-override
+89 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+90 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+91 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+92 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+93 info trying registry request attempt 2 at 18:59:23
+94 verbose etag "9XGHHU5SSQIX3FVXT8YJFUP0G"
+95 http GET https://npm.interactive-apps.apple.com/body-parser
+96 info trying registry request attempt 2 at 18:59:23
+97 verbose etag "56CKX4VQB466JGUBRGOWAC49W"
+98 http GET https://npm.interactive-apps.apple.com/method-override
+99 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+100 info trying registry request attempt 2 at 18:59:23
+101 verbose etag "EM0M8KBB78GAG70YN5FBEIFZT"
+102 http GET https://npm.interactive-apps.apple.com/compression
+103 info trying registry request attempt 2 at 18:59:23
+104 verbose etag "1RQBDKKR3V5ZRW2SZUQIVY2J2"
+105 http GET https://npm.interactive-apps.apple.com/morgan
+106 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+107 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+108 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+109 info trying registry request attempt 3 at 19:00:23
+110 verbose etag "9XGHHU5SSQIX3FVXT8YJFUP0G"
+111 http GET https://npm.interactive-apps.apple.com/body-parser
+112 silly registry.get cb [ 304, undefined ]
+113 verbose etag https://npm.interactive-apps.apple.com/body-parser from cache
+114 info trying registry request attempt 3 at 19:00:23
+115 verbose etag "56CKX4VQB466JGUBRGOWAC49W"
+116 http GET https://npm.interactive-apps.apple.com/method-override
+117 info trying registry request attempt 3 at 19:00:23
+118 verbose etag "EM0M8KBB78GAG70YN5FBEIFZT"
+119 http GET https://npm.interactive-apps.apple.com/compression
+120 info trying registry request attempt 3 at 19:00:23
+121 verbose etag "1RQBDKKR3V5ZRW2SZUQIVY2J2"
+122 http GET https://npm.interactive-apps.apple.com/morgan
+123 silly registry.get cb [ 304, undefined ]
+124 verbose etag https://npm.interactive-apps.apple.com/method-override from cache
+125 silly registry.get cb [ 304, undefined ]
+126 verbose etag https://npm.interactive-apps.apple.com/compression from cache
+127 silly registry.get cb [ 304, undefined ]
+128 verbose etag https://npm.interactive-apps.apple.com/morgan from cache
+129 silly addNameRange number 2 { name: 'body-parser',
+129 silly addNameRange   range: '>=1.8.0-0 <1.9.0-0',
+129 silly addNameRange   hasData: true }
+130 silly addNameRange versions [ 'body-parser',
+130 silly addNameRange   [ '1.0.0',
+130 silly addNameRange     '1.0.1',
+130 silly addNameRange     '1.0.2',
+130 silly addNameRange     '1.1.0',
+130 silly addNameRange     '1.1.1',
+130 silly addNameRange     '1.1.2',
+130 silly addNameRange     '1.2.0',
+130 silly addNameRange     '1.2.1',
+130 silly addNameRange     '1.2.2',
+130 silly addNameRange     '1.3.0',
+130 silly addNameRange     '1.3.1',
+130 silly addNameRange     '1.4.0',
+130 silly addNameRange     '1.4.1',
+130 silly addNameRange     '1.4.2',
+130 silly addNameRange     '1.4.3',
+130 silly addNameRange     '1.5.0',
+130 silly addNameRange     '1.5.1',
+130 silly addNameRange     '1.5.2',
+130 silly addNameRange     '1.6.0',
+130 silly addNameRange     '1.6.1',
+130 silly addNameRange     '1.6.2',
+130 silly addNameRange     '1.6.3',
+130 silly addNameRange     '1.6.4',
+130 silly addNameRange     '1.6.5',
+130 silly addNameRange     '1.6.6',
+130 silly addNameRange     '1.6.7',
+130 silly addNameRange     '1.7.0',
+130 silly addNameRange     '1.8.0',
+130 silly addNameRange     '1.8.1',
+130 silly addNameRange     '1.8.2',
+130 silly addNameRange     '1.8.3',
+130 silly addNameRange     '1.8.4',
+130 silly addNameRange     '1.9.0',
+130 silly addNameRange     '1.9.1',
+130 silly addNameRange     '1.9.2',
+130 silly addNameRange     '1.9.3',
+130 silly addNameRange     '1.10.0',
+130 silly addNameRange     '1.10.1',
+130 silly addNameRange     '1.10.2',
+130 silly addNameRange     '1.11.0',
+130 silly addNameRange     '1.12.0',
+130 silly addNameRange     '1.12.1',
+130 silly addNameRange     '1.12.2',
+130 silly addNameRange     '1.12.3',
+130 silly addNameRange     '1.12.4',
+130 silly addNameRange     '1.13.0',
+130 silly addNameRange     '1.13.1',
+130 silly addNameRange     '1.13.2',
+130 silly addNameRange     '1.13.3' ] ]
+131 verbose addNamed [ 'body-parser', '1.8.4' ]
+132 verbose addNamed [ '1.8.4', '1.8.4' ]
+133 silly lockFile 5cba912c-body-parser-1-8-4 body-parser@1.8.4
+134 verbose lock body-parser@1.8.4 /Users/corey_g/.npm/5cba912c-body-parser-1-8-4.lock
+135 silly addNameRange number 2 { name: 'compression',
+135 silly addNameRange   range: '>=1.0.11-0 <1.1.0-0',
+135 silly addNameRange   hasData: true }
+136 silly addNameRange versions [ 'compression',
+136 silly addNameRange   [ '1.0.0',
+136 silly addNameRange     '1.0.1',
+136 silly addNameRange     '1.0.2',
+136 silly addNameRange     '1.0.3',
+136 silly addNameRange     '1.0.4',
+136 silly addNameRange     '1.0.5',
+136 silly addNameRange     '1.0.6',
+136 silly addNameRange     '1.0.7',
+136 silly addNameRange     '1.0.8',
+136 silly addNameRange     '1.0.9',
+136 silly addNameRange     '1.0.10',
+136 silly addNameRange     '1.0.11',
+136 silly addNameRange     '1.1.0',
+136 silly addNameRange     '1.1.1',
+136 silly addNameRange     '1.1.2',
+136 silly addNameRange     '1.2.0',
+136 silly addNameRange     '1.2.1',
+136 silly addNameRange     '1.2.2',
+136 silly addNameRange     '1.3.0',
+136 silly addNameRange     '1.3.1',
+136 silly addNameRange     '1.4.0',
+136 silly addNameRange     '1.4.1',
+136 silly addNameRange     '1.4.2',
+136 silly addNameRange     '1.4.3',
+136 silly addNameRange     '1.4.4',
+136 silly addNameRange     '1.5.0',
+136 silly addNameRange     '1.5.1',
+136 silly addNameRange     '1.5.2' ] ]
+137 verbose addNamed [ 'compression', '1.0.11' ]
+138 verbose addNamed [ '1.0.11', '1.0.11' ]
+139 silly lockFile 851d7241-compression-1-0-11 compression@1.0.11
+140 verbose lock compression@1.0.11 /Users/corey_g/.npm/851d7241-compression-1-0-11.lock
+141 silly addNameRange number 2 { name: 'method-override',
+141 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+141 silly addNameRange   hasData: true }
+142 silly addNameRange versions [ 'method-override',
+142 silly addNameRange   [ '1.0.0',
+142 silly addNameRange     '1.0.1',
+142 silly addNameRange     '1.0.2',
+142 silly addNameRange     '2.0.0',
+142 silly addNameRange     '2.0.1',
+142 silly addNameRange     '2.0.2',
+142 silly addNameRange     '2.1.0',
+142 silly addNameRange     '2.1.1',
+142 silly addNameRange     '2.1.2',
+142 silly addNameRange     '2.1.3',
+142 silly addNameRange     '2.2.0',
+142 silly addNameRange     '2.3.0',
+142 silly addNameRange     '2.3.1',
+142 silly addNameRange     '2.3.2',
+142 silly addNameRange     '2.3.3',
+142 silly addNameRange     '2.3.4',
+142 silly addNameRange     '2.3.5' ] ]
+143 verbose addNamed [ 'method-override', '2.2.0' ]
+144 verbose addNamed [ '2.2.0', '2.2.0' ]
+145 silly lockFile 8cefa653-method-override-2-2-0 method-override@2.2.0
+146 verbose lock method-override@2.2.0 /Users/corey_g/.npm/8cefa653-method-override-2-2-0.lock
+147 silly addNameRange number 2 { name: 'morgan', range: '>=1.3.0-0 <1.4.0-0', hasData: true }
+148 silly addNameRange versions [ 'morgan',
+148 silly addNameRange   [ '1.0.0',
+148 silly addNameRange     '1.0.1',
+148 silly addNameRange     '1.1.0',
+148 silly addNameRange     '1.1.1',
+148 silly addNameRange     '1.2.0',
+148 silly addNameRange     '1.2.1',
+148 silly addNameRange     '1.2.2',
+148 silly addNameRange     '1.2.3',
+148 silly addNameRange     '1.3.0',
+148 silly addNameRange     '1.3.1',
+148 silly addNameRange     '1.3.2',
+148 silly addNameRange     '1.4.0',
+148 silly addNameRange     '1.4.1',
+148 silly addNameRange     '1.5.0',
+148 silly addNameRange     '1.5.1',
+148 silly addNameRange     '1.5.2',
+148 silly addNameRange     '1.5.3',
+148 silly addNameRange     '1.6.0',
+148 silly addNameRange     '1.6.1' ] ]
+149 verbose addNamed [ 'morgan', '1.3.2' ]
+150 verbose addNamed [ '1.3.2', '1.3.2' ]
+151 silly lockFile 7e2b41c6-morgan-1-3-2 morgan@1.3.2
+152 verbose lock morgan@1.3.2 /Users/corey_g/.npm/7e2b41c6-morgan-1-3-2.lock
+153 silly lockFile cbee627b-mpression-compression-1-0-11-tgz https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+154 verbose lock https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz /Users/corey_g/.npm/cbee627b-mpression-compression-1-0-11-tgz.lock
+155 silly lockFile 5deab229-ody-parser-body-parser-1-8-4-tgz https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+156 verbose lock https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz /Users/corey_g/.npm/5deab229-ody-parser-body-parser-1-8-4-tgz.lock
+157 silly lockFile 8dc809bf-erride-method-override-2-2-0-tgz https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+158 verbose lock https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz /Users/corey_g/.npm/8dc809bf-erride-method-override-2-2-0-tgz.lock
+159 verbose addRemoteTarball [ 'https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz',
+159 verbose addRemoteTarball   '69700cf1ee8963454356ac192a6e5e91e232bffb' ]
+160 verbose addRemoteTarball [ 'https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz',
+160 verbose addRemoteTarball   'd497e04bc13b3f9a8bd8c70bb0cdc16f2e028898' ]
+161 silly lockFile 2bb3ae35-pple-com-morgan-morgan-1-3-2-tgz https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+162 verbose lock https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz /Users/corey_g/.npm/2bb3ae35-pple-com-morgan-morgan-1-3-2-tgz.lock
+163 verbose addRemoteTarball [ 'https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz',
+163 verbose addRemoteTarball   '177e852b6add3b4f9177033a9446b01e7801a0c0' ]
+164 verbose addRemoteTarball [ 'https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz',
+164 verbose addRemoteTarball   'ac41aa15221ee4e5f2ac843896b6918139a18efd' ]
+165 info retry fetch attempt 1 at 19:00:23
+166 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+167 info retry fetch attempt 1 at 19:00:23
+168 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+169 http GET https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+170 info retry fetch attempt 1 at 19:00:23
+171 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+172 http GET https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+173 error fetch failed https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+174 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+175 info retry fetch attempt 1 at 19:00:23
+176 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+177 http GET https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+178 error fetch failed https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+179 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+180 error fetch failed https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+181 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+182 http GET https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+183 error fetch failed https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+184 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+185 info retry fetch attempt 2 at 19:00:33
+186 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+187 info retry fetch attempt 2 at 19:00:33
+188 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+189 info retry fetch attempt 2 at 19:00:33
+190 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+191 http GET https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+192 http GET https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+193 info retry fetch attempt 2 at 19:00:33
+194 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+195 http GET https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+196 error fetch failed https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+197 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+198 error fetch failed https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+199 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+200 error fetch failed https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+201 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+202 http GET https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+203 error fetch failed https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+204 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+205 info retry fetch attempt 3 at 19:01:33
+206 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+207 info retry fetch attempt 3 at 19:01:33
+208 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+209 info retry fetch attempt 3 at 19:01:33
+210 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+211 info retry fetch attempt 3 at 19:01:33
+212 verbose fetch to= /var/folders/7w/2h1l_yvj7h_916pwrw4vkqvmx0f8mp/T/npm-2819-ZtPUUxk1/npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+213 http GET https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+214 http GET https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+215 http GET https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+216 http GET https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+217 error fetch failed https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+218 silly lockFile 5deab229-ody-parser-body-parser-1-8-4-tgz https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+219 silly lockFile 5deab229-ody-parser-body-parser-1-8-4-tgz https://npm.interactive-apps.apple.com/body-parser/-/body-parser-1.8.4.tgz
+220 error fetch failed https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+221 silly lockFile 2bb3ae35-pple-com-morgan-morgan-1-3-2-tgz https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+222 silly lockFile 2bb3ae35-pple-com-morgan-morgan-1-3-2-tgz https://npm.interactive-apps.apple.com/morgan/-/morgan-1.3.2.tgz
+223 error fetch failed https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+224 silly lockFile cbee627b-mpression-compression-1-0-11-tgz https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+225 silly lockFile cbee627b-mpression-compression-1-0-11-tgz https://npm.interactive-apps.apple.com/compression/-/compression-1.0.11.tgz
+226 error fetch failed https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+227 silly lockFile 8dc809bf-erride-method-override-2-2-0-tgz https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+228 silly lockFile 8dc809bf-erride-method-override-2-2-0-tgz https://npm.interactive-apps.apple.com/method-override/-/method-override-2.2.0.tgz
+229 silly lockFile 5cba912c-body-parser-1-8-4 body-parser@1.8.4
+230 silly lockFile 5cba912c-body-parser-1-8-4 body-parser@1.8.4
+231 silly lockFile 7e2b41c6-morgan-1-3-2 morgan@1.3.2
+232 silly lockFile 7e2b41c6-morgan-1-3-2 morgan@1.3.2
+233 silly lockFile 851d7241-compression-1-0-11 compression@1.0.11
+234 silly lockFile 851d7241-compression-1-0-11 compression@1.0.11
+235 silly lockFile 8cefa653-method-override-2-2-0 method-override@2.2.0
+236 silly lockFile 8cefa653-method-override-2-2-0 method-override@2.2.0
+237 silly lockFile b68cd600-body-parser-1-8-0 body-parser@~1.8.0
+238 silly lockFile b68cd600-body-parser-1-8-0 body-parser@~1.8.0
+239 silly lockFile a4a9bdf4-morgan-1-3-0 morgan@~1.3.0
+240 silly lockFile a4a9bdf4-morgan-1-3-0 morgan@~1.3.0
+241 silly lockFile ff995a08-compression-1-0-11 compression@~1.0.11
+242 silly lockFile ff995a08-compression-1-0-11 compression@~1.0.11
+243 silly lockFile 574f3b77-method-override-2-2-0 method-override@~2.2.0
+244 silly lockFile 574f3b77-method-override-2-2-0 method-override@~2.2.0
+245 error network getaddrinfo ENOTFOUND
+245 error network This is most likely not a problem with npm itself
+245 error network and is related to network connectivity.
+245 error network In most cases you are behind a proxy or have bad network settings.
+245 error network
+245 error network If you are behind a proxy, please make sure that the
+245 error network 'proxy' config is set properly.  See: 'npm help config'
+246 error System Darwin 14.3.0
+247 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+248 error cwd /Users/corey_g/personal_projects/express/skeleton
+249 error node -v v0.10.36
+250 error npm -v 1.4.28
+251 error syscall getaddrinfo
+252 error code ENOTFOUND
+253 error errno ENOTFOUND
+254 verbose exit [ 1, true ]
