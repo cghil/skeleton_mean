@@ -1,18 +1,18 @@
-var users = require('../../app/controllers/users.server.controller');
+var users = require('../../app/controllers/users.server.controller')
+	passport = require('passport');
 
-module.exports = function(app){
-	app.route('/users')
-		.post(users.create)
-		.get(users.list);
+module.exports = function(app) {
+    app.route('/signup')
+        .get(users.renderSignup)
+        .post(users.signup);
 
-	app.route('/users/:userId')
-		.get(users.read)
-		.put(users.update)
-		.delete(users.delete);
+    app.route('/signin')
+        .get(users.renderSignin)
+        .post(passport.authenticate('local', {
+            successRedirect: '/',
+            failureRedirect: '/signin',
+            failureFlash: true
+        }));
 
-	app.param('userId', users.userByID);
-	// this tells the router to use the users.userByID function before executing any other piece of middleware registered wtih the userId parameter
-
+    app.get('/signout', users.signout);
 };
-
-// this is going to use the controller for users
