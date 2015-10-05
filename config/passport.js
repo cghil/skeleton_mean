@@ -17,6 +17,7 @@ module.exports = function(){
 	});
 
 	require('./strategies/local.js')();
+	require('./strategies/facebook.js')();
 };
 
 // passport.serializeUser() and passport.deserializeUser() methods are used to define how Passport will handle user serializeaiton
